@@ -55,8 +55,8 @@ ul {
   overflow: hidden;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[autofix];
-      grid-template-rows: repeat(autofix, 1fr);
+  -ms-grid-rows: (1fr)[auto-fix];
+      grid-template-rows: repeat(auto-fix, 1fr);
   -webkit-box-shadow: 5px 1px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.02);
           box-shadow: 5px 1px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.02);
 }
@@ -139,8 +139,8 @@ ul {
 
 @media screen and (min-width: 612px) {
   .container {
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[auto-fix];
+        grid-template-rows: repeat(auto-fix, 1fr);
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     width: 70%;
